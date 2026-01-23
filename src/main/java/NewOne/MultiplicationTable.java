@@ -11,10 +11,13 @@ public class MultiplicationTable {
         Scanner scanner = new Scanner(System.in);
         System.out.println("input number 8: ");
         int num1 = scanner.nextInt();
+        System.out.println(  " this is  the  number that you  have enter " + num1);
        //Use a loop to calculate and print the multiplication table for the input number
         for (int i = 0; i < 10; i++) {
             // Calculate and print the result of num1 multiplied by (i+1)
             System.out.println(num1 + " x " + (i + 1) + " = " + (num1 * (i + 1)));
+            // here we will take the input in num1  and here X is the times that are used in the  and i for the
+            //iteration
         }
 
         }
